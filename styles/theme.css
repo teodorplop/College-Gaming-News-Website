@@ -1,0 +1,385 @@
+header figure {
+	width: 100%;
+	height: 5%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+header figure figcaption {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	text-align: center;
+	font-family: Impact;
+	font-size: 300%;
+}
+
+#title_bkg {
+	width: 100%;
+	opacity: 0.9;
+}
+
+header h1 {
+	position: absolute;
+	top: 30%;
+	text-align: center;
+	width: 100%;
+	color: white;
+	font-family: Rockwell;
+	font-size: 400%;
+}
+
+body {
+	background-color: #F7E7D6;
+	overflow-x: hidden;
+}
+
+nav{
+	margin-bottom: 7%;
+}
+
+aside {
+	font-family: Franklin Gothic;
+	text-align: center;
+	color: white;
+	float: right;
+	background-color: #5E5E8D;
+	width: 30%;
+	margin-right: 3%;
+	margin-left: 3%;
+	padding-bottom: 3%;
+}
+aside h2 {
+	font-size: 200%;
+}
+#aside_menu li {
+	background-color: #F7E7D6;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3%;
+	border-radius: 25%;
+}
+#aside_menu li:hover {
+	transform: scale(1.1);
+}
+#aside_menu a {
+	text-decoration: none;
+	color: #5E5E8D;
+	font-size: 175%;
+	display: block;
+}
+
+#menu{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu li a{
+	display: block;	
+	color: white;
+	text-decoration: none;
+}
+
+#menu li{
+	float: left;	
+	width: 25%;
+	text-align: center;
+	font-size: 1.5em;
+	
+	background: rgb(240,183,161); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(240,183,161,1) 0%, rgba(117,34,1,1) 3%, rgba(140,51,16,1) 50%, rgba(191,110,78,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(240,183,161,1)), color-stop(3%,rgba(117,34,1,1)), color-stop(50%,rgba(140,51,16,1)), color-stop(100%,rgba(191,110,78,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(240,183,161,1) 0%,rgba(117,34,1,1) 3%,rgba(140,51,16,1) 50%,rgba(191,110,78,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(240,183,161,1) 0%,rgba(117,34,1,1) 3%,rgba(140,51,16,1) 50%,rgba(191,110,78,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(240,183,161,1) 0%,rgba(117,34,1,1) 3%,rgba(140,51,16,1) 50%,rgba(191,110,78,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(240,183,161,1) 0%,rgba(117,34,1,1) 3%,rgba(140,51,16,1) 50%,rgba(191,110,78,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=0 ); /* IE6-9 */
+}
+
+#menu li:hover {
+	background: rgb(243,226,199); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(243,226,199,1) 0%, rgba(182,141,76,1) 5%, rgba(193,158,103,1) 100%, rgba(233,212,179,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(243,226,199,1)), color-stop(5%,rgba(182,141,76,1)), color-stop(100%,rgba(193,158,103,1)), color-stop(100%,rgba(233,212,179,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(243,226,199,1) 0%,rgba(182,141,76,1) 5%,rgba(193,158,103,1) 100%,rgba(233,212,179,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(243,226,199,1) 0%,rgba(182,141,76,1) 5%,rgba(193,158,103,1) 100%,rgba(233,212,179,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(243,226,199,1) 0%,rgba(182,141,76,1) 5%,rgba(193,158,103,1) 100%,rgba(233,212,179,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(243,226,199,1) 0%,rgba(182,141,76,1) 5%,rgba(193,158,103,1) 100%,rgba(233,212,179,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3',GradientType=0 ); /* IE6-9 */
+}
+
+#menu li:hover > a{
+	color: black;
+}
+
+#dropdown_parent {
+	position: relative;
+}
+
+#dropdown li{
+	font-size: 100%;
+	width: 100%;
+	clear: both;
+}
+
+#dropdown{
+	display: none;
+	position: absolute;
+	width: 100%;
+	z-index: 200;
+}
+
+#menu li:hover #dropdown{
+	display: block;
+}
+
+/* home page - articles */
+article{
+	background-color: white;
+	height: auto;
+	width: 50%;
+	padding: 1%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-right: 10%;
+	margin-left: 5%;
+	font-family: Arial;
+}
+
+article p {
+	width: 75%;
+}
+article iframe {
+	frameborder: 0;
+}
+.article_title{
+	font-family: Franklin Gothic;
+	font-size: 250%;
+	width: 100%;
+}
+.article_source {
+	text-align: left;
+	font-family: Arial;
+	font-size: 100%;
+	margin-top: -2%;
+}
+.article_source a {
+	text-decoration: none;
+}
+.article_source a:hover {
+	color: rgb(240,183,161);
+}
+.article_title_picture{
+	width: 100%;
+	height: auto;
+	margin-right: 1%;
+	margin-bottom: 1%;
+}
+.article_picture{
+	width: 75%;
+	height: auto;
+	margin-right: 1%;
+	margin-bottom: 1%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+.article_video {
+	width: 75%;
+	height: 25em;
+	margin-right: 1%;
+	margin-bottom: 1%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+/* best games */
+section {
+	color: white;
+	width: 75%;
+	border-radius: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #5E5E8D;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding: 2%;
+}
+.genre_title {
+	font-family: Franklin Gothic;
+	color: #FF6600;
+	font-size: 275%;
+	text-align: center;
+	background-color: #F7E7D6;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.genre_source {
+	text-align: center;
+	font-family: Arial;
+	font-size: 100%;
+	margin-top: -2%;
+}
+.genre_source a {
+	text-decoration: none;
+}
+.genre_source a:hover {
+	color: rgb(240,183,161);
+}
+.nominated_subtitle {
+	font-family: Franklin Gothic;
+	font-size: 225%;
+	color: white;
+	text-align: center;
+	margin-top: 5%;
+}
+.nominated {
+	padding-bottom: 8%;
+}
+.nominated_picture {
+	clear: both;
+
+	margin-left: 2.5%;
+	margin-right: 5%;
+	float: left;
+	width: 35%;
+	
+	border-radius: 5%;
+	
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.nominated_picture:hover {
+	transform: scale(1.15);
+}
+.nominated_description_title {
+	padding-top: 1.5%;
+	font-size: 130%;
+	text-align: center;
+}
+.nominated_description {
+	width: 100%;
+	font-size: 135%;
+}
+.winner {
+	text-align: center;
+}
+.winner_subtitle {
+	font-family: Franklin Gothic;
+	font-size: 225%;
+	text-align: center;
+	color: #E68A00;
+}
+.winner_picture {
+	width: 70%;
+}
+.winner_description_title {
+	font-size: 135%;
+}
+.winner_description {
+	font-size: 115%;
+}
+
+/* review page */
+form{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8.5%;
+	width: 35%;
+	text-align: center;
+	background-color: #AD5C33;
+	padding: 3%;
+	border-radius: 5%;
+}
+
+#float_left, #float_right{
+	background-color: #AD5C33;
+	width: 15%;
+	padding: 0.2%;
+}
+
+#float_left{
+	float: left;
+}
+
+#float_right{
+	float: right;
+}
+
+.picture_float{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.label_text{
+	color: white;
+	font-size: 130%;
+}
+
+#button{
+	width: 30%;
+	height: 3em;
+}
+
+/* official game reviews */
+table {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10%;
+}
+table, th, td {
+    border: 1px solid #5E5E8D;
+    border-collapse: collapse;
+}
+th, td {
+	text-align: center;
+    padding: 1em;
+}
+th {
+	font-size: 125%;
+	color: white;
+	background-color: #5E5E8D;
+}
+table tr:nth-child(even) {
+    background-color: #eee;
+}
+table tr:nth-child(odd) {
+	background-color:#fff;
+}
+form label textarea {
+	width: 100%;
+	height: 30em;
+}
+/* RESPONSIVE */
+@media screen and (max-width: 1200px){
+	#menu li {
+		float: none;
+		width: 100%;
+	}
+	aside, article {
+		float: none;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 3%;
+	}
+	#float_left, #float_right {
+		display: none;
+	}
+	form {
+		width: 90%;
+	}
+	form label textarea {
+		width: 60%;
+	}
+}

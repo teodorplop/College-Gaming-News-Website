@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<script src = "scripts/utils.js"></script>
+<script src = "scripts/jquery-1.11.2.min.js"></script>
+<script src = "scripts/myData.js"></script>
+<script src = "scripts/review.js"></script>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="styles/theme.css">
+	<link media="screen" href="styles/theme.css" type="text/css" rel = "stylesheet"/>
+	
+	<title>Top PC Games by Genre</title>
+</head>
+
+<body onload = "Review.start()">
+
+	<header>
+		<figure><img src="resources/title_bkg.jpg" id="title_bkg" alt="Warlord Blackhand">
+		<figcaption>Top PC Games by Genre</figcaption>
+		</figure>
+	</header>
+	
+	<nav> 
+		<ul id = "menu"> 
+			<li><a href="index.html">Home</a></li>
+			<li><a href="review.html">Write a Review</a></li>
+			<li><a href="games.html">All Games</a></li>
+			<li id = "dropdown_parent"><a href="best.html">Best Games of 2014</a>
+				<ul id = "dropdown">
+					<li><a href="best.html#rpg">Best RPG</a></li>
+					<li><a href="best.html#shooter">Best Shooter</a></li>
+					<li><a href="best.html#strategy">Best Strategy</a></li>
+					<li><a href="best.html#sports">Best Sports</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+	
+	<div id = "float_left">
+	</div>
+	<div id = "float_right">
+	</div>
+
+	<div id = "review">
+	<form>
+		<label class = "label_text">Email:<input type = "email" name = "email" size = 30 required> </label> <br> <br>
+		<label class = "label_text">Choose your genre:</label>
+		<select name="genre" id = "genre_select" onchange = "Review.onGenreChange()">
+		</select> <br> <br>
+		<label class = "label_text">Choose your game:</label> 
+		<select name="game" id = "games_select">
+		</select> <br> <br>
+		<label><textarea>Write your review here:</textarea></label> <br> <br>
+		<input type = "submit" value = "Submit" id = "button">
+	</form>
+	</div>
+	
+</body>
+
+</html>
