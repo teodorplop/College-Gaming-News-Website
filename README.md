@@ -1,5 +1,7 @@
-# FirstWebProject
+# Gaming News Website
 
-My first web project, using HTML, CSS, Javascript. A website for gaming news.
+This is my first web project. It was a college project that I learned web programming from.
 
-College project
+### Technologies
+
+HTML, CSS, Javascript
