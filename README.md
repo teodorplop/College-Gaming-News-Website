@@ -1,6 +1,6 @@
 # Gaming News Website
 
-This is my first web project. It was a college project that I learned web programming from.
+Learning project, simple website for gaming news.
 
 ### Technologies
 
